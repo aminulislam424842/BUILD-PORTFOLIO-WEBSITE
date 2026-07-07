@@ -290,3 +290,71 @@ ul li a{
 .box6{
   grid-area: six;
 }
+.contact-section{
+    background:#FFF8F3;
+    padding:100px 0;
+    margin-top:100px;
+}
+
+.contact-container{
+    display:flex;
+    justify-content:space-between;
+    gap:120px;
+}
+
+.contact-left,
+.contact-right{
+    flex:1;
+}
+
+.contact-left h2,
+.contact-right h2{
+    font-size:35px;
+    font-weight:700;
+    color:#181818;
+    margin-bottom:20px;
+}
+
+.contact-left p{
+    font-size:16px;
+    line-height:28px;
+    color:#474747;
+    margin-bottom:25px;
+}
+
+.social-icons{
+    display:flex;
+    gap:20px;
+}
+
+.social-icons img{
+    width:24px;
+    cursor:pointer;
+}
+
+.contact-right form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-right input,
+.contact-right textarea{
+    width:100%;
+    border:none;
+    outline:none;
+    background:#fff;
+    padding:18px 20px;
+    font-size:16px;
+    border-radius:5px;
+    font-family:"Open Sans", sans-serif;
+}
+
+.contact-right textarea{
+    height:180px;
+    resize:none;
+}
+
+.contact-right .common-btn{
+    width:160px;
+}
