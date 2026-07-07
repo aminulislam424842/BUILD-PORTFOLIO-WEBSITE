@@ -50,7 +50,7 @@ ul li a{
   cursor: pointer;
 }
 .hero-parent-root{
-  background: #fff8f3FF;
+  background-color: #fff8f3FF;
 }
 .hero-parent{
   display: flex;
