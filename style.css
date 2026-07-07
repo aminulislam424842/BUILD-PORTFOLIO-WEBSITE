@@ -2,17 +2,23 @@
   margin: 0;
   padding: 0;
 }
+.container{
+  max-width: 1200px;
+  margin: 8px auto;
+  font-family: "Open Sans";
+}
+.img{
+  max-width: 100%;
+}
+
 .main-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
-  margin: 8px auto;
 }
 .logo{
   font-weight: 800;
   font-size: 45px;
-  font-family: "Open Sans";
   font-style: normal;
 }
 .logo-in{
@@ -40,6 +46,47 @@ ul li a{
   font-size: 22px;
   border-radius: 6px;
   font-weight: 700;
-  font-family: "Open Sans";
   color: white;
+  cursor: pointer;
+}
+.hero-parent-root{
+  background: #fff8f3FF;
+}
+.hero-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-left-p-1{
+  color: #474747FF;
+  font-size: 45px;
+  font-weight: normal;
+}
+.hero-left h2{
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.hero-left-p-2{
+  color: #757575FF;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.hero-btn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+.contact-btn{
+  background-color: white;
+  border: 1px solid #fd6e0aFF;
+  padding: 8px 10px;
+  font-size: 22px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: #fd6e0aFF;
+  cursor: pointer;
 }
